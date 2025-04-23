@@ -36,7 +36,7 @@ setInterval(function(){
 
     if((characterTop > 480) || ((blockLeft < 20) && (blockLeft >- 50) && ((cTop<holeTop) || (cTop>holeTop+130)))){
 
-        alert("Game Over! Score: " +(counter -1));
+        alert("Game Over! \nScore: " +(counter));
 
         character.style.top = 100 + "px";
 
